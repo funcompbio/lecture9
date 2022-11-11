@@ -34,7 +34,7 @@ class: title-slide, middle, center
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
 ### UPF School of Health and Life Sciences
-### Academic Year 2021-2022
+### Academic Year 2022-2023
 
 ---
 
@@ -145,16 +145,25 @@ right image from [(Peng et al., 2011)](https://dx.doi.org/10.1126/science.121384
 * An R Markdown document starts with a [YAML](https://en.wikipedia.org/wiki/YAML) header:
 <pre>
 &#45;&#45;&#45;
-title: My document
+title: Report on this and that
+subtitle: FCB 2022
 author: Me
+date: November 11th, 2022
 output: html_document
 &#45;&#45;&#45;
 </pre>
+
+---
+
+## R Markdown
+
 * The YAML header allows one to make global formatting choices:
 <pre>
 &#45;&#45;&#45;
-title: My document
+title: Report on this and that
+subtitle: FCB 2022
 author: Me
+date: November 11th, 2022
 output:
 &nbsp;&nbsp;&nbsp;&nbsp;html_document:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toc: true
@@ -204,7 +213,8 @@ head(dat) ## output from this line will not be seen
 ````
 * When displaying graphics, options `fig.width`, `fig.height`, `out.width`,
   `out.height`, `dpi`, `fig.align` and `fig.cap` allow one to control the
-  image size, aspect ratio, resolution, alignment and caption text, respectively.
+  aspect ratio, output size, resolution, alignment and caption text,
+  respectively.
 ````
 ```{r, fig.height=5, out.height="300px", dpi=100, fig.align="center", fig.cap="In this figure we show axis y as function of axis x."}`r ''`
 plot(dat$x, dat$y)
