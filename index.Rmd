@@ -34,7 +34,7 @@ class: title-slide, middle, center
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
 ### UPF School of Health and Life Sciences
-### Academic Year 2022-2023
+### Academic Year 2023-2024
 
 ---
 
@@ -79,7 +79,7 @@ reproducing a result can be also challenging.
 --
 
 .right-column[
-
+<p style="margin-top: -20px">
 * It should be, however, always feasible!
   [(Claerbout and Karrenbach, 1992)](https://library.seg.org/doi/abs/10.1190/1.1822162).  
   &nbsp;&nbsp;
@@ -135,7 +135,7 @@ right image from [(Peng et al., 2011)](https://dx.doi.org/10.1126/science.121384
 * The rest of this presentation will briefly introduce R Markdown, but
   the R Markdown
   [website by RStudio](https://rmarkdown.rstudio.com) contains very good
-  learning materials on how to get started and use most of its features.
+  learning materials on how to get started and how to use most of its features.
 
 
 ---
@@ -146,9 +146,9 @@ right image from [(Peng et al., 2011)](https://dx.doi.org/10.1126/science.121384
 <pre>
 &#45;&#45;&#45;
 title: Report on this and that
-subtitle: FCB 2022
+subtitle: FCB 2023
 author: Me
-date: November 11th, 2022
+date: November 10th, 2023
 output: html_document
 &#45;&#45;&#45;
 </pre>
@@ -161,9 +161,9 @@ output: html_document
 <pre>
 &#45;&#45;&#45;
 title: Report on this and that
-subtitle: FCB 2022
+subtitle: FCB 2023
 author: Me
-date: November 11th, 2022
+date: November 10th, 2023
 output:
 &nbsp;&nbsp;&nbsp;&nbsp;html_document:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toc: true
@@ -250,8 +250,8 @@ kable(head(iris[, 1:3]), caption="Iris data.")
 ```
 ]
 
-* The list and explanations on all available options can be found
-  [here](https://bookdown.org/yihui/rmarkdown-cookbook/chunk-options.html).
+* The list of all available options can be found
+  [here](https://yihui.org/knitr/options).
 
 
 ---
